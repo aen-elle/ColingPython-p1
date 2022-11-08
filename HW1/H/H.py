@@ -1,3 +1,6 @@
 def solution(a):
-    ### YOUR CODE ###
-    return
+    transpan = list(zip(*a[::]))
+    output = []
+    for i in transpan:
+        output.append(list(i))
+    return output
